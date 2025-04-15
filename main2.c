@@ -7,10 +7,7 @@ int main() {
     float valor;
     float soma = 0;
     int contador = 0;
-
     while (1) {
-        printf("Vakinha da Valquiria\n");
-        printf("Deposite seu dinheiro na vakinha da nossa querida: ");
         scanf("%f", &valor);
 
         if (valor < 0) {
